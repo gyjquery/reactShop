@@ -1,0 +1,39 @@
+@import '../../common/less/rem';
+.nav{
+  overflow: hidden;
+  width: 750/@rem;
+  ul{
+    display: flex;
+    padding: 0 30/@rem;
+    width:20rem;
+
+    li{
+      color:#333;
+      white-space: nowrap;
+      padding:0 16/@rem;
+      font-size:27.998/@rem;
+      margin-left: 48/@rem;
+      width:55.954/@rem;
+      height:60/@rem;
+      line-height:60/@rem ;
+      position: relative;
+      .line{
+        display: block;
+        width:87.953/@rem;
+        height:3.984/@rem;
+        background: #b4282d;
+        position: absolute;
+        bottom:0;
+        left:0;
+      }
+      .textColor{
+        color: #b4282d;
+      }
+    }
+    li:first-child{
+      margin-left: 0;
+
+    }
+
+  }
+}

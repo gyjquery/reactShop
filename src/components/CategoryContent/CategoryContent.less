@@ -1,0 +1,55 @@
+@import '../../common/less/rem';
+.categorycontent{
+  height:100%;
+  border:1px solid #f4f4f4;
+  overflow: hidden;
+  width:528/@rem;
+  padding:30/@rem 30/@rem 21/@rem 30/@rem;
+  .navImg{
+    img{
+      width:528/@rem;
+      height:192/@rem;
+    }
+  }
+  .text{
+    font-size: 24/@rem;
+    color: #333;
+    text-align: center;
+    margin-top: .4rem;
+    span{
+      display: inline-block;
+      width:.6rem;
+      height:2px;
+      background: #eee;
+      margin-bottom: .07rem;
+      margin: .1rem;
+
+    }
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width:144/@rem;
+      height:216/@rem;
+      font-size: 0;
+      margin-right: 34/@rem;
+      img{
+        width:144/@rem;
+        height:144/@rem;
+        border-radius: 50%;
+      }
+      .categoryText{
+        color: #333;
+        font-size: 24/@rem;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        text-align: center;
+      }
+    }
+    li:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+}

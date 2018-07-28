@@ -1,0 +1,39 @@
+@import "../../common/less/rem";
+.footer{
+  position: absolute;
+  width:100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+
+  &>div{
+    margin-bottom: .15rem;
+    p{
+      text-align: center;
+      i{
+        font-size: 48/@rem;
+        color: #666;
+      }
+    }
+    span{
+      display: block;
+      color: #666;
+      text-align: center;
+      font-size: 24/@rem;
+      margin-top: 2/@rem;
+    }
+
+  }
+  &>.active{
+    p{
+      i{
+        color:#b4282d ;
+      }
+    }
+    span{
+      color:#b4282d ;
+    }
+
+  }
+}
